@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #categoryTabs {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  #categoryTabs button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #E91E63;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  #categoryTabs button:hover {
+    background-color: #C2185B;
+  }
+  
+  .card {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .card.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
